@@ -1,0 +1,49 @@
+	#loginDiv {
+				width: 550px;
+				height: 530px;
+				margin: 0 auto;
+				background-color: #fafafa;
+				margin-top: 70px;
+				text-align: center;
+			}
+			#img {
+				margin-top: 20px;
+				width:290px ;
+				height: 80px;
+			}
+			#uname {
+				width: 426px;
+				height: 55px;
+				border: 1px solid gray;
+				margin-left: -34px;
+				background-color: transparent;
+				padding-left: 32px;
+				border-radius: 3px ;
+				
+			}
+			#upassword {
+				width: 426px;
+				height: 55px;
+				border: 1px solid gray;
+				margin-left: -34px;
+				background-color: transparent;
+				padding-left: 32px;
+				
+				border-radius: 3px ;
+			}
+			button {
+				width: 456px;
+				height: 55px;
+				background-color: #ff6b4d;
+				margin-top: 10px;
+				border: 1px solid #ff6b4d;
+			border-radius: 3px;
+			color: white;
+			}
+			#passwordimg{
+				margin-top: 10px;
+				
+			}
+			#loginpic {
+				margin-top: 15px;
+			}
