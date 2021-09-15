@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>个人存款计算器</title>
+		<style>
+			table {
+				margin: 0 auto;
+				width: 900px;
+			    height: 300px;
+			    border-collapse: collapse;
+			}
+			table,tr,td {
+				border: 1px solid black;
+			}
+			#calBtn {
+				background-color: #397eb4;
+				color: white;
+				width: 95%;
+				height: 75%;
+				border-radius: 3px ;
+				border: 1px solid #397eb4;
+				
+			}
+			.moneyText {
+				width: 90%;
+				height: 70%;
+				border-radius: 3px ;
+				border: 1px solid gray;
+			}
+		</style>
+	</head>
+
+	<body style="text-align: center;">
+		<a href="https://www.cmbchina.com/"><img src="cmb.png"></a>
+		<table>
+			<tr>
+				<td colspan="2" style="background-color: #397eb4 ; color: white;">个人存款计算器</td>
+			</tr>
+
+			<tr>
+				<td>存款金额</td>
+				<td><input type="text" class="moneyText"></td>
+			</tr>
+
+			<tr>
+				<td>存取期限</td>
+				<td>
+					<select class="moneyText">
+						<option>一年</option>
+						<option>两年</option>
+						<option>三年</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>所得利息</td>
+				<td><input type="text" class="moneyText"></td>
+			</tr>
+
+			<tr>
+				<td>本息合计</td>
+				<td><input type="text" class="moneyText" ></td>
+			</tr>
+
+			<tr>
+				<td colspan="2"><button  id="calBtn" >开始计算</button></td>
+			</tr>
+		</table>
+		<h5>开发者：&nbsp;1921054121&nbsp;郭硕&nbsp;</h5>
+	</body>
+
+</html>
