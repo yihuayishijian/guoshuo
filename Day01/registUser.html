@@ -1,0 +1,52 @@
+<!--
+	作者：2245834472@qq.com
+	时间：2021-09-08
+	描述：
+	DOCTYPE 文档类型定义,定义了网页的根元素是html
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+        	设置编码格式,防止乱码
+        -->
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+	</head>
+	<body>
+		<!--
+       form 表单
+        -->
+		<form action="receive.html" >
+			用户名<input type="text",pplaceholder="请输入用户名" />
+			<br />
+			密码<input type="password" /> <br />
+			性别<input type="radio" name="gender" checked="checked" />男
+			<input type="radio" name="gender" />女
+			<br />
+			籍贯<select
+		
+				>
+				<option>山西大同</option>
+						<option>山西长治</option>
+								<option selected="selected">山西太原</option>
+				</select>
+					<br />
+					爱好<input type="checkbox"/>旅游
+					<input type="checkbox"/>游泳
+					<input type="checkbox"/ checked="checked">踢足球
+					<input type="checkbox"/>跑步
+					<input type="checkbox"/>打篮球
+				<br />
+				自我介绍<textarea  rows="5" cols="50">
+					文本域  cols列
+				</textarea>
+				<br />
+				上传简历<input type="file" />
+				<br />
+				<input type="submit" value="注册" />
+				<input type="reset" value="清空重填" />
+				<input type="submit" value="注册" />
+		</form>
+	</body>
+</html>
